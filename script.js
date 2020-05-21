@@ -100,7 +100,7 @@ generateBtn.onclick = function () {
   // Prompts and confirms
 
   passLength = prompt(
-    "How many character do you want your password to be? Enter a number between 8 and 20."
+    "How many character do you want your password to be? Enter a number between 8 and 128."
   );
 
   passLower = confirm(
